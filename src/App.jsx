@@ -18,7 +18,9 @@ function App() {
 
   return (
     <div>
-      <RouterProvider router={router} />
+      <RouterProvider router={router}>
+        <Home />
+      </RouterProvider>
     </div>
   )
 }
