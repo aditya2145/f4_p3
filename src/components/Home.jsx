@@ -40,7 +40,7 @@ const Home = () => {
                 }
                 >
                     <div style={{width: '100%', overflow: 'hidden', height: '60%'}}>
-                        <img style={{width: '100%', backgroundSize: 'cover'}} src='https://picsum.photos/200?random=${post.id}' alt="postImg" />
+                        <img style={{width: '100%', backgroundSize: 'cover'}} src={`https://picsum.photos/200?random=${post.id}`} alt="postImg" />
                     </div>
                     <div style={{padding: '1rem'}}>
                         <p><span style={{fontWeight: 'bolder'}}>Title:</span> {post.title.slice(0,20)}...</p>
