@@ -13,14 +13,12 @@ function App() {
       path: '/item/:id',
       element: <PostDetails />
     }
-  ]);
+  ], { basename: '/f4_p3' });
 
 
   return (
     <div>
-      <RouterProvider router={router}>
-        <Home />
-      </RouterProvider>
+      <RouterProvider router={router} />
     </div>
   )
 }
